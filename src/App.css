@@ -1,6 +1,7 @@
 body {
   background-color: #18191a;
   color: white;
+  font-family: "Roboto Mono", monospace;
 }
 .hero {
   display: flex;
@@ -57,4 +58,19 @@ body {
 
 .btn-outline-light {
   padding: 1em !important;
+}
+
+/* Social Styling */
+
+.social {
+  position: absolute;
+  display: flex;
+}
+.social i {
+  padding-right: 30px;
+  font-size: 25px;
+  color: #9a9b9c;
+}
+.social i:hover {
+  color: #ffffff;
 }

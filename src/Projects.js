@@ -15,9 +15,11 @@ import ReactSnake from "./project-images/React-Snake.jpg";
 const Projects = () => {
   return (
     <div>
-      <h1 className="mt-5 mb-5">
+      <h1 className="mt-5">
         My Projects <span className="parenthesis">()</span>
       </h1>
+      <hr />
+      <br />
       <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2">
         <div class="col mb-4">
           <Card

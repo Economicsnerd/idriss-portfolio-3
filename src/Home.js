@@ -27,7 +27,12 @@ const Home = () => {
             ]}
           />
         </h5>
-        <h5>Contact me</h5>
+        <div className="mt-5">
+          <h4 class="card-title">Contact me</h4>
+          <a href="mailto:idrisscodes@gmail.com" class="btn btn-outline-light">
+            Email <i class="fas fa-envelope-open"></i>
+          </a>
+        </div>
       </div>
     </div>
   );
