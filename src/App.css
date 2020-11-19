@@ -46,3 +46,15 @@ body {
   background-color: #6521a0;
   font-weight: 800 !important;
 }
+#contact-card {
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.contact-text {
+  margin-top: 10%;
+}
+
+.btn-outline-light {
+  padding: 1em !important;
+}
