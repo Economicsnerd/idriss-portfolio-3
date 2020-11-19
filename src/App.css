@@ -1,13 +1,37 @@
 body {
+  background-color: #18191a;
+  color: white;
 }
-
 .hero {
   display: flex;
   flex-direction: column;
   font-size: 200% !important;
 }
-
 .centered {
   position: fixed;
   top: 40%;
+}
+
+/* Navbar custom styling */
+
+.navbar-toggler {
+  border: 0px !important;
+  width: 2em;
+  height: 2em;
+}
+
+.nav-item {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.parenthesis {
+  color: #892cdc;
+}
+
+/* Card Styling */
+
+.card {
+  background-color: !important;
+  border: 0px;
 }
