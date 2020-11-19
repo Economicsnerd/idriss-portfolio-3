@@ -14,7 +14,7 @@ export class Navbar extends Component {
             width="30"
             height="30"
           />
-          idrissCodes
+          idrissCodes <span className="parenthesis">()</span>
         </Link>
         <button
           class="navbar-toggler"

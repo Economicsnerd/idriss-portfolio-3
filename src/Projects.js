@@ -15,7 +15,9 @@ import ReactSnake from "./project-images/React-Snake.jpg";
 const Projects = () => {
   return (
     <div>
-      <h1 className="mt-5 mb-5">My Projects</h1>
+      <h1 className="mt-5 mb-5">
+        My Projects <span className="parenthesis">()</span>
+      </h1>
       <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2">
         <div class="col mb-4">
           <Card
@@ -31,7 +33,7 @@ const Projects = () => {
         <div class="col mb-4">
           <Card
             image={PoochStagram}
-            title="This is the title"
+            title="PoochStagram"
             description="A fun app inspired by popular social media apps. Features: Sign-in, upload photos, like, comment."
             category={Rails}
             technology="Built with Ruby on Rails"

@@ -32,6 +32,17 @@ body {
 /* Card Styling */
 
 .card {
-  background-color: !important;
+  background-color: #343a40 !important;
   border: 0px;
+}
+
+.btn-primary {
+  background-color: #892cdc;
+  border: 0px;
+  font-weight: 600 !important;
+}
+
+.btn-primary:hover {
+  background-color: #6521a0;
+  font-weight: 800 !important;
 }
