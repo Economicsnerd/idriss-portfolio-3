@@ -18,9 +18,10 @@ export class About extends Component {
         <p>
           I have been programming since the late 2000's when I started my
           computer science program. I later went on to study economics and
-          political science and I'm now a graduate student in Montreal. I love
-          building web applications that help business conduct their day to day
-          operations smoothly. I am a freelance developer and Co-Founder of
+          political science and I'm now a graduate student in University of
+          Montreal. I love building web applications that help businesses
+          conduct their day to day operations smoothly. I am a freelance
+          developer and Co-Founder of
           <a className="text-link ml-1" href="https://gitwebsavvy.com/">
             GitWebSavvy.com.
           </a>

@@ -16,11 +16,11 @@ const Card = (props) => {
         <p className="card-text">{props.description}</p>
         <div className="mt-4 mb-4">
           {liveDemo !== "" && (
-            <a href={props.liveDemo} className="btn btn-primary m-1">
+            <a href={props.liveDemo} className="btn btn-primary m-1 small-text">
               Live Demo <i class="fas fa-eye ml-2"></i>
             </a>
           )}
-          <a href={props.repo} className="btn btn-primary m-1">
+          <a href={props.repo} className="btn btn-primary m-1 small-text">
             Github Repo <i class="fab fa-github ml-2"></i>
           </a>
         </div>

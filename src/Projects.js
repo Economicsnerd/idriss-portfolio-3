@@ -25,7 +25,7 @@ const Projects = () => {
           <Card
             image={GithubFinder}
             title="Github Finder"
-            description="A web app built on ReactJs that interacts with the Github API to find and display github users."
+            description="A web app built on ReactJs that interacts with the Github API to find and display github users. All styling is custom."
             category={logo}
             technology="Built with React"
             liveDemo="https://githubffinder.netlify.app/"

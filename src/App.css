@@ -10,7 +10,7 @@ body {
 }
 .centered {
   position: fixed;
-  top: 40%;
+  top: 30%;
 }
 
 /* Navbar custom styling */
@@ -51,6 +51,7 @@ body {
   max-width: 800px;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 10%;
 }
 .contact-text {
   margin-top: 10%;
@@ -58,6 +59,10 @@ body {
 
 .btn-outline-light {
   padding: 1em !important;
+}
+
+.small-text {
+  font-size: small;
 }
 
 /* Social Styling */
