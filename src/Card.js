@@ -3,6 +3,7 @@ import "./App.css";
 
 const Card = (props) => {
   const liveDemo = props.liveDemo;
+  const repo = props.repo;
 
   return (
     <div className="card text-center">
@@ -20,9 +21,11 @@ const Card = (props) => {
               Live Demo <i class="fas fa-eye ml-2"></i>
             </a>
           )}
-          <a href={props.repo} className="btn btn-primary m-1 small-text">
-            Github Repo <i class="fab fa-github ml-2"></i>
-          </a>
+          {repo !== "" && (
+            <a href={props.repo} className="btn btn-primary m-1 small-text">
+              Github Repo <i class="fab fa-github ml-2"></i>
+            </a>
+          )}
         </div>
 
         <div className="mt-3">

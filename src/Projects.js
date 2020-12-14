@@ -4,6 +4,7 @@ import Card from "./Card.js";
 // Tech Logos
 import logo from "./logo.svg";
 import Rails from "./icons/rails.png";
+import WordPress from "./icons/wordpress.svg.png";
 
 // Project Screenshots
 
@@ -11,6 +12,8 @@ import GithubFinder from "./project-images/GithubFinder.jpg";
 import OpenProjects from "./project-images/Open_Projects.jpg";
 import PoochStagram from "./project-images/PoochStagram.jpg";
 import ReactSnake from "./project-images/React-Snake.jpg";
+import BrokeFoodie$ from "./project-images/BrokeFoodie$.jpg";
+import AConsulting from "./project-images/AConsulting.jpg";
 
 const Projects = () => {
   return (
@@ -21,6 +24,17 @@ const Projects = () => {
       <hr />
       <br />
       <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2">
+        <div class="col mb-4">
+          <Card
+            image={AConsulting}
+            title="Amraoui Consulting"
+            description="A WordPress Site built for my dad's new consulting agency in Marrakech, Morocco. Good luck to you on this new venture! "
+            category={WordPress}
+            technology="Built with Wordpress"
+            liveDemo="https://consultingamraoui.com/"
+            repo=""
+          />
+        </div>
         <div class="col mb-4">
           <Card
             image={GithubFinder}
@@ -39,6 +53,8 @@ const Projects = () => {
             description="A fun app inspired by popular social media apps. Features: Sign-in, upload photos, like, comment."
             category={Rails}
             technology="Built with Ruby on Rails"
+            repo="https://github.com/Economicsnerd/poochStagram"
+            liveDemo="http://poochstagram.herokuapp.com/users/sign_in"
           />
         </div>
         <div class="col mb-4">
@@ -59,6 +75,18 @@ const Projects = () => {
             category={logo}
             technology="Built with React"
             liveDemo=""
+            repo="https://github.com/Economicsnerd/reactjs-snake"
+          />
+        </div>
+        <div class="col mb-4">
+          <Card
+            image={BrokeFoodie$}
+            title="Broke Foodies"
+            description="My recipe blog and first online business. Built using the Genesis Framework. Content and customization was made by me."
+            category={WordPress}
+            technology="Built with Wordpress"
+            liveDemo="https://www.brokefoodies.com/"
+            repo=""
           />
         </div>
       </div>
